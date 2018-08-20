@@ -9,7 +9,7 @@ describe("Calulator", function () {
             // assert       
             expect(actual).toBe(0);
             });
-    })
+    });
 
     describe("Given one argument", function () {
         it("return the number in the argument", function() {
@@ -20,7 +20,7 @@ describe("Calulator", function () {
             // assert      
             expect(actual).toBe(23);
             });
-    })
+    });
 
     describe("Given two arguments", function () {
         it("return the average", function() {
@@ -31,7 +31,7 @@ describe("Calulator", function () {
             // assert      
             expect(actual).toBe(2);
             });
-    })
+    });
 
     describe("Given an arbitary number of arguments", function () {
         it("return the average", function() {
@@ -42,6 +42,6 @@ describe("Calulator", function () {
             // assert  
             expect(actual).toBe(3);
             });
-    })
+    });
 
 });
